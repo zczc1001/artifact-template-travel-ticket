@@ -1,0 +1,7 @@
+interface:
+  display_name: "Travel Ticket 旅行票根"
+  short_description: "Create images with the Travel Ticket 旅行票根 template"
+  icon_large: "./assets/preview.png"
+  default_prompt: "Use $artifact-template-travel-ticket to create an image with this template."
+policy:
+  allow_implicit_invocation: true
