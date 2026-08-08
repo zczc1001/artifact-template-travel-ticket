@@ -1,7 +1,7 @@
 interface:
   display_name: "Travel Ticket 旅行票根"
-  short_description: "Create images with the Travel Ticket 旅行票根 template"
+  short_description: "Create travel tickets with photo-adaptive background colors"
   icon_large: "./assets/preview.png"
-  default_prompt: "Use $artifact-template-travel-ticket to create an image with this template."
+  default_prompt: "Use $artifact-template-travel-ticket to create a travel-ticket image and derive a muted, harmonious fabric background color from the source photo."
 policy:
   allow_implicit_invocation: true
